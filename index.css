@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Pacifico&display=swap");
+
+body {
+  background-image: linear-gradient(to right top, #e3200d, #da6100, #ca8900, #b7aa00, #a2c643, #b3c742, #c3c842, #d3c844, #ffa63d, #ff7b65, #ff57a4, #fb5fec);
+  );
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Pacifico", cursive;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding-top: 10%;
+}
+
+.form {
+  display: flex;
+  color: white;
+  justify-content: center;
+  top: 35%;
+}
+
+ul {
+  list-style: none;
+  dislpay: flex;
+  color: white;
+  padding-top: 0%;
+  margin-top: 0%;
+  position: fixed;
+}
+.list {
+  display: flex;
+  /* align-items: stretch; */
+  justify-content: space-between; 
+
+  text-align: center;
+  padding: 0px 50px;
+  position: fixed;
+  background-image: linear-gradient(to right top, #790de3, #4b53f7, #0375ff, #0090fe, #3fa7f6, #56acf9, #69b2fc, #79b7ff, #89abff, #aa9aff, #d381ff, #fb5fec);
+  );
+  top: 0%;
+  height: 30px;
+  width: 95%;
+}
+
+select {
+  width: 80%;
+}
+
+.submit {
+  color: blue;
+  background-color: rgb(30, 230, 120);
+  border-radius: 10px;
+  width: 30%;
+}
+
+.submit:hover {
+  color: rgb(30, 230, 120);
+  background-color: blue;
+  transform: scale(1.2);
+  width: 50%;
+}
+fieldset {
+  border-color: transparent;
+}
+
+.mandatory::after {
+  content: "*";
+  color: red;
+  display: inline-block;
+  text-indent: 9px;
+}
+
+.banner {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+   background-image: url(
+     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCeoHkexjTSb_OxJI77JULs876VjYUUM4aA&usqp=CAU"     ), linear-gradient(to right top, #53d418, #b9ad00, #f07a00, #ff3b48, #eb128b);;
+     background-position:center;
+     background-size: cover;
+ 
+  background-blend-mode: luminosity;
+  
+}

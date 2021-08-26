@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <ul class="list">
+            <li>Menu</li>
+            <li>Home</li>
+            <li>Contact Us</li>
+            <li>Feedback</li>
+        </ul>
+
+    </div>
+    <h1>Favorite things to do:</h1>
+
+    <div class="banner"></div>
+
+    <form>
+        <div class="form">
+
+            <fieldset>
+                <label class="mandatory" for="name"> Name:</label>
+                <input type="text" id="name" required min="5" max="10" placeholder="Enter Your Name"><br><br>
+
+                <label for="DOB"> DOB : </label>
+                <input type="date" id="DOB"><br><br>
+
+                <label for="gender"> Gender : </label>
+                <input type="radio" id="male" name="gender">Male
+                <input type="radio" id="female" name="gender">Female<br><br>
+
+                <label class="mandatory" for="favorite">Favorite things to do: </label><br>
+                <select name="favorite" id="place" size=5 multiple>
+                    <option value="Delhi">Eating</option>
+                    <option value="Kerla">Music</option>
+                    <option value="Manali">painting</option>
+                    <option value="Mumbai">Games</option>
+                    <option value="Goa">Outing</option>
+                    <option value="Goa">Reading</option>
+                    <option value="Goa">Cooking</option>
+                </select><br><br>
+
+                <button class="submit">Submit</button>
+            </fieldset><br>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
